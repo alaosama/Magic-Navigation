@@ -13,3 +13,16 @@
     position: relative;
     list-style: none;
 }
+
+.navigation li::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 5px;
+    background: #222;
+    border-radius: 50%;
+    transition: 0.5s;
+}
