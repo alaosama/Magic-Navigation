@@ -34,3 +34,16 @@
     flex-direction: column;
     text-decoration: none;
 }
+
+.navigation li a .icon {
+    position: absolute;
+    font-size: 1.75em;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #aaa;
+    border-radius: 50px;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
